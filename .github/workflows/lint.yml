@@ -16,3 +16,5 @@ jobs:
       - name: Linelint
         uses: fernandrone/linelint@master
         id: linelint
+      - name: echo
+        run: pwd && ls -la
