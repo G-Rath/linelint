@@ -1,6 +1,11 @@
 on: [push]
 name: lint
 
+defaults:
+  run:
+    shell: bash
+    working-directory: ./linter
+
 jobs:
   linelint:
     runs-on: ubuntu-latest
