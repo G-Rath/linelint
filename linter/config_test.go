@@ -43,3 +43,6 @@ func TestDefaultConfig(t *testing.T) {
 		t.Errorf("yaml.Unmarshal(Config):\n\tExpected %+v, got %+v", autofixTestConf, c)
 	}
 }
+
+
+
